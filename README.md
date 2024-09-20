@@ -17,7 +17,7 @@ UNI_TARGETS="uni001.lan,unni002.lan,uni003.lan" UNI_APIKEY="..." UNI_APISECRET="
 
 ```
 # REQUIRED: 
-- UNI_TARGETS   - list of OPNSense Target Server to Backup (comma separated)
+- UNI_TARGETS   - list of Unifi Controller Target Server to Backup (comma separated)
 - UNI_APIKEY    - Unifi Controller Backup User APIKEY
 - UNI_APISECRET - Unifi Controller User APISECRET
 
@@ -25,7 +25,7 @@ UNI_TARGETS="uni001.lan,unni002.lan,uni003.lan" UNI_APIKEY="..." UNI_APISECRET="
 - UNI_TLSKEYPIN - Unifi TLS MitM proof Certificate Keypin [string]
 - UNI_DAEMON    - run app in daemon mode, never quit, fetch once every hour [bool: defaults to 'false']
 - UNI_NOGIT     - do not create & update local git version repo [bool: defaults to 'false']
-- UNI_NOSSL     - do not verify SSL Certificates [bool: defaults to *'true'*, SSL SystemCertStore is pointless, use OPN_TLSKEYPIN!]
+- UNI_NOSSL     - do not verify SSL Certificates [bool: defaults to *'true'*, SSL SystemCertStore is pointless, use UNI_TLSKEYPIN!]
 
 ```
 # OPTIONS FAQ
