@@ -2,9 +2,9 @@
 [![Go Reference](https://pkg.go.dev/badge/paepcke.de/uniborg.svg)](https://pkg.go.dev/paepcke.de/uniborg) 
 [![Go Report Card](https://goreportcard.com/badge/paepcke.de/uniborg)](https://goreportcard.com/report/paepcke.de/uniborg) 
 
-[paepcke.de/opnborg](https://paepcke.de/uniborg/)
+[paepcke.de/uniborg](https://paepcke.de/uniborg/)
 
-# OPNBORG 
+# UNIBORG 
 
 - secure backup & orchestration for [ui.com](https://ui.com/) controller appliances
   
@@ -31,7 +31,6 @@ UNI_TARGETS="uni001.lan,unni002.lan,uni003.lan" UNI_APIKEY="..." UNI_APISECRET="
 # OPTIONS FAQ
 
 ```
-- How to create a secure Unifi Backup API Key? (UNI_APIKEY & UNI_APISECRET)
 - Enviroment Variables bools must set exactly case senitive to 'true' to enable, anything else will default to false.
 - Clear text HTTP protocol is not supported, switch on HTTPS for your admin interface (self-signed certificates will do)
 - ATT: HTTPS chain verification via system os trust store(s) clusterfuck is disabled by default (UNI_NOSSL='true'), use UNI_TLSKEYPIN !
